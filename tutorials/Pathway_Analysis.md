@@ -21,22 +21,23 @@ Begin by starting PathVisio. Open the Cell Cycle pathway from the WikiPathways c
 
 > Small numbers above data nodes, interactions or the info box in the top left of the pathway indicate publication references. 
 > Double click the *info box in the top left* (Title, Availability, Last modified, Organism) and go to the “Literature” tab. 
-> There you can determine if there is a paper reference for this pathway.
+> **Question 1.1** Is there a paper reference for this pathway?
 
-> Click on the GSK3B gene in the top left. Check the “Backpage” tab on the right side to determine which identifier and database the gene is annotated with. 
+> **Question 1.2** Click on the GSK3B gene in the top left. Check the “Backpage” tab on the right side. Which identifier and database is the gene is annotated with? 
 
 **Load the identifier mapping database:** 
 1.	Go to Menu Data → Select Gene Database → Browse to Hs_Derby_Ensembl_91.bridge in the Data folder
 2.	Check the status bar at the bottom to see if the gene database has been loaded correctly. 
 
->Click on the GSK3B gene again and go to the “Backpage” tab to see if you can now also find other identifier(s) for this gene.  
+>**Question 1.3** Click on the GSK3B gene again and go to the “Backpage” tab. Can you find other identifier(s) for this gene?  
 
 
 ## Assignment 2: Data Import in PathVisio
 -------------------------------------------
 
 > Open the statistical analysed data in Excel (comp_LungCancer-Normal.txt in Pathway_Analysis_Data folder). The first column 
-> contains the identifier of the genes (ENSG_ID). From which of the three database below are the identifiers in the dataset? 
+> contains the identifier of the genes (ENSG_ID). 
+> **Question 2.1** From which of the three database below are the identifiers in the dataset? 
 > *(Required for following steps!)*
 >
 > - [ ]    Ensembl
@@ -61,9 +62,9 @@ correctly), see Figure 2c.
 
 ![Figure 2C and 2D](https://github.com/LaurenDupuis/Helis-Academy-Omics-June-2019/blob/master/images/Figure%202C_2D_PA_.png?raw=true)
 
-> How many rows were successfully imported?
+> **Question 2.2** How many rows were successfully imported?
 
-> How many identifiers were not recognized?  
+> **Question 2.3** How many identifiers were not recognized?  
 > **Important:** if the number of rows is the same as the number of identifiers not recognized the data import was not done correctly - 
 > you probably didn’t select the correct database (step 4 data import)! Redo the import or ask one of the instructors for help. 
 > **(Required for following steps!)**
@@ -72,6 +73,7 @@ correctly), see Figure 2c.
 If you clicked finish, you should see a default visualization on the pathway (if all genes are gray, the data import was not 
 successful → please redo the import, make sure you select the correct database in step 4, otherwise ask one of the instructors). 
 Click on the GSK3B gene and check the “Data” tab on the right side → do you see the expression data?
+**Question 2.4** Take a screenshot of the pathway.
 -----------------------------------------------------------------------------------------------------------------------------------
 
 ## Assignment 3: Creating a Basic Visualization
@@ -94,10 +96,10 @@ Follow the instruction to create a basic visualization:
 ![Figure 3C](https://github.com/LaurenDupuis/Helis-Academy-Omics-June-2019/blob/master/images/Data_Vis_3_PA_.png?raw=true)
 
 
-> *Consider what the colors in the pathway mean biologically* (Hint: Check the “Legend” tab 
+> **Question 3.1** *What do the colors in the pathway mean biologically* (Hint: Check the “Legend” tab 
 > on the right side). 
 
-> Select the ORC6 gene (bottom left), go to the “Data” tab. What is the logFC of the ORC6 gene?
+> **Question 3.2** Select the ORC6 gene (bottom left), go to the “Data” tab. What is the logFC of the ORC6 gene?
 
 ## Assignment 4: Create and Advanced Visualization
 PathVisio also allows users to visualize multiple data columns together. For that we need to create a new advanced visualization.
@@ -113,8 +115,9 @@ PathVisio also allows users to visualize multiple data columns together. For tha
 
 ![Figure 4](https://github.com/LaurenDupuis/Helis-Academy-Omics-June-2019/blob/master/images/Fig4.png?raw=true)
 
-> Consider what the colors in the different columns on the data nodes in the pathway mean 
-> biologically by checking the “Legend” tab on the right side. 
+> **Question 4.1** What do the colors in the different columns on the data nodes in the pathway mean 
+> biologically? Check the “Legend” tab on the right side. 
+> **Question 4.2** Make a screenshot of the pathway with the visualization.
 
 -------------------------------------------------------------------------------------------------------
 
@@ -126,7 +129,7 @@ To identify pathways that might be affected by lung cancer, you can perform path
 2.	First we need to define a criteria for differentially expressed genes. We are going to select those genes based on significant p-value but we are also going to make sure the change is high enough by specifying a logFC threshold:
     a.	([logFC] < -1 OR [logFC] > 1) AND [P.Value] < 0.05
 
-> Consider what this expression criteria means (which genes will be selected)?
+> **Question 5.1** What does this expression criteria mean (which genes will be selected)?
 > ([logFC] < -1 OR [logFC] > 1) AND [P.Value] < 0.05
 
 3.	Now we need to specify the pathway directory. Find the directory: 
@@ -134,13 +137,13 @@ Wikipathways-Human-Pathways. If you need to download the human pathway collectio
 4.	Browse to this directory and select it. 
 5.	Then click on Calculate and wait for the result table.
 
-> Observe the top altered pathways and their Z-Scores. Do you see highly ranked pathways in the result 
+> **Question 5.2** Observe the top altered pathways and their Z-Scores. Do you see highly ranked pathways in the result 
 > table that you expect to be affected by lung cancer?
 
-> How many genes of the dataset are in at least one pathway (N) and how many differentially expressed genes of the 
+> **Question 5.3** How many genes of the dataset are in at least one pathway (N) and how many differentially expressed genes of the 
 > dataset are present in at least one pathway (R)? (Check “N and R" above the result table)
 
-> What is the pathway with the lowest Z-Score? What does a low Z-Score mean biologically? (ignore pathways with NaN)
+> **Question 5.4** What is the pathway with the lowest Z-Score? What does a low Z-Score mean biologically? (ignore pathways with NaN)
 
 
 
