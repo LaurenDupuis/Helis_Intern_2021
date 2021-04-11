@@ -1,6 +1,6 @@
 # Helis Academy Pathway Analysis Practical
 ==============================================================================
-## January 2021
+## April 2021
 Practical prepared by Dr. Martina Summer-Kutmon and Dr. Lauren J. Dupuis
 
 -------------------------------------------------------------------------------------------------------------------------
