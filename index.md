@@ -9,7 +9,7 @@ The pre-processed data that we will use for the course can be downloaded [here](
 **If you are having problems with Java 8, you can [check here for instructions](https://pathvisio.github.io/faq#running-java-8)
 
 ## Introduction to Biological Pathways
-For this part of the course you will need to [download](https://pathvisio.github.io/downloads) the pathway drawing software [PathVisio](https://pathvisio.github.io/). Follow the Binary Installation instructions in the [Installation Guide](https://pathvisio.github.io/pages/installation_guide.html) for your operating system.
+For this part of the course you will need to [download](https://pathvisio.github.io/downloads) the pathway drawing software [PathVisio](https://pathvisio.github.io/). Follow the Binary Installation instructions in the [Installation Guide](https://pathvisio.github.io/tutorials/installation_guide.html) for your operating system.
 
 #### Tutorials
 * You will need to learn how to draw pathways using PathVisio. For extra help you can follow the [WikiPathways Academy](https://wikipathways.github.io/academy/) to get an interactive introduction to pathway drawing.
