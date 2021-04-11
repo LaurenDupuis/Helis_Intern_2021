@@ -10,7 +10,7 @@ of a novel biomarker, SEMA5A, for non-small cell lung carcinoma in nonsmoking wo
 Biomarkers & Prevention in 2010 (see [paper](https://cebp.aacrjournals.org/content/19/10/2590.long)). You will need the WikiPathways human pathways collection that you can download [here](http://www.wikipathways.org/wpi/batchDownload.php?species=Homo%20sapiens&fileType=gpml&tag=Curation:AnalysisCollection) as a 
 zip file. You will need to unzip it before use. You will also need the BridgeDb identifier mapping file for humans which you can download [here](https://bridgedb.github.io/data/gene_database/).
 
-For this assignment, you will the data file comp_LungCancer-Normal.txt from the repository.
+For this assignment, you will the data file comp_LungCancer-Normal.txt from [this repository](Data_Helis_Course/comp_LungCancer-Normal.txt).
 
 ## Assignment 1: Open a Pathway in PathVisio
 ---------------------------------------------
